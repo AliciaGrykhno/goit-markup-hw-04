@@ -213,6 +213,11 @@ img {
 .hero {
   padding: 188px 0;
   height: 600px;
+  max-width: 1440px;
+
+  margin-right: auto;
+  margin-left: auto;
+
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -222,7 +227,6 @@ img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #2e2f42;
 }
 
 .hero-container {
@@ -428,13 +432,13 @@ img {
   color: #404bbf;
 }
 
-.customers-link-icon {
+.customers-list-icon {
   fill: currentColor;
 }
+
 .customers-list-icon:hover,
 .customers-list-icon:focus {
-  border-color: #404bbf;
-  color: #404bbf;
+  fill: currentColor;
 }
 /*==OUR CUSTOMERS==*/
 
@@ -462,7 +466,6 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  margin-right: 120px;
 }
 .footer-information {
   margin-right: 120px;
