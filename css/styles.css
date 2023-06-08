@@ -485,6 +485,7 @@ img {
 .footer-items {
   width: 40px;
   height: 40px;
+  text-decoration: none;
 }
 .social-footer-items {
   display: flex;
