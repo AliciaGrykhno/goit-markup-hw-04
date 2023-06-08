@@ -497,7 +497,7 @@ img {
   background-color: #31d0aa;
 }
 .item {
-  fill: var(--background-colour);
+  fill: var(--description-color);
 }
 /*==FOOTER==*/
 
