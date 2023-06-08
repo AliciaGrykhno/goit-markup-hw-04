@@ -428,6 +428,9 @@ img {
   color: #404bbf;
 }
 
+.customers-link-icon {
+  fill: currentColor;
+}
 .customers-list-icon:hover,
 .customers-list-icon:focus {
   border-color: #404bbf;
@@ -494,7 +497,7 @@ img {
   background-color: #31d0aa;
 }
 .item {
-  fill: var(--description-color);
+  fill: var(--background-colour);
 }
 /*==FOOTER==*/
 
